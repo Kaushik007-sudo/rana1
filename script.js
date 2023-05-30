@@ -3,7 +3,7 @@ let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx bxs-x-circle');
+    menuIcon.classList.toggle('bxs-x-circle');
     navbar.classList.toggle('active');
 };
 
@@ -32,7 +32,7 @@ window.onscroll = () => {
     header.classList.toggle('sticky', window.scrollY > 100);
 
     /*--------Remove Toggle Icon Navbar--------*/
-    menuIcon.classList.remove('bx bxs-x-circle');
+    menuIcon.classList.remove('bxs-x-circle');
     navbar.classList.remove('active');
 
 };
